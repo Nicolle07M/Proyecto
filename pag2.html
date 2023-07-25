@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mis dioses favoritos</title>
+    <link rel="stylesheet" type="text/css" href="css/estilos.css">
+    <link rel="icon" href="fotos/logo2.ico">
+</head>
+<body>
+    <center>
+        <form name="Tick" id="Tick" >
+            <input type="text" sixe="11" name="Clock" />
+</form>
+<script>
+    function show() {
+        var Digital = new Date()
+        var hours = Digital.getHours()
+        var minutes = Digital.getMinutes()
+        var seconds = Digital.getSeconds()
+        var dn = "AM"
+        if (hours > 12) {
+            dn = "PM"
+            hours = hours - 12
+        }
+        if (hours == 0)
+            hours = 12
+        if(minutes <= 9)
+           minutes = "0" + minutes
+        if (seconds <= 9)
+            seconds = "0" + seconds
+        document.Tick.Clock.value = hours + ":" + minutes + ":" +
+        seconds + " " + dn
+        setTimeout("show()",1000)
+    }
+    show();
+</script>
+    
+    <center>
+    <header id="cabecera2">
+        <h1>Mis Dioses Favoritos</h1>
+    </header>
+</center>
+<header>
+    <img src="fotos/INICIO.jpeg" width="100" id="logito">
+<nav id="menu">
+    <ul>
+
+        <li><a href="pag1.html">Pagina principal </a> </li>
+        <li><a href="pag2.html">Mis dioses favoritos </a> </li>
+        <li><a href="pag3.html">Otras mitologias </a></li>
+        <li><a href="index.html">Cerrar sesion</a></li>
+    </ul>
+</nav>
+</header>
+<div class="sectionM">
+    <div class="text">
+        <h2>Hades</h2>
+        <p> Hades es una figura de la mitología griega y uno de los dioses principales del panteón griego.
+            Es conocido como el dios del inframundo, el lugar donde van las almas después de la muerte.
+        Hades es el hijo de los titanes Cronos y Rea y, por lo tanto, es hermano de Zeus y Poseidón. Cuando los tres hermanos derrocaron a los titanes y dividieron el mundo entre ellos, a Hades le tocó gobernar el inframundo, que también lleva su nombre. Al contrario de la mayoría de los dioses olímpicos, Hades rara vez abandonaba su reino oscuro. <br>
+        Se le representa como un dios serio y sombrío, a menudo llevando un casco que lo hacía invisible y portando un cetro o una llave que simbolizaba su autoridad sobre los muertos.</p>
+    </div>
+    <div class="image">
+        <img src="fotos/Hades2.jpg" alt="Imagen 1">
+    </div>
+</div>
+
+<div class="sectionL">
+    <div class="image">
+        <img src="fotos/Ares.jpg" alt="Imagen 2">
+    </div>
+    <div class="text">
+        <h2>Ares</h2>
+        <p>Ares es un dios de la mitología griega asociado con la guerra y la violencia. Su historia se puede resumir en los siguientes puntos:
+
+            Ares era el hijo de Zeus, rey de los dioses, y Hera, la reina de los dioses. Era hermano de varios dioses y diosas, incluidos Atenea (diosa de la sabiduría y la guerra estratégica) y Hefesto (dios del fuego y la forja).
+            
+            A diferencia de otros dioses olímpicos, Ares no era muy apreciado ni respetado, ya que representaba la brutalidad de la guerra y la lucha sin restricciones. Era conocido por su temperamento impulsivo y su amor por el conflicto.
+            
+            Ares era adorado y honrado principalmente por guerreros y soldados, quienes buscaban su favor antes de entrar en batalla. Se creía que lo acompañaba en la lucha y otorgaba valor a los combatientes.</p>
+    </div>
+</div>
+<div class="sectionM">
+    <div class="text">
+        <h2>Afrodita</h2>
+        <p> Afrodita es una diosa de la mitología griega asociada con el amor, la belleza y la fertilidad. Su historia puede resumirse de la siguiente manera:
+
+            Afrodita nació de la espuma del mar después de que Cronos, padre de Zeus, cortara los genitales de su padre Urano y los arrojara al mar. De esta forma, emergió de las olas cerca de la isla de Chipre, donde fue recibida por las Horas, diosas del orden y la ley natural.
+            
+            Desde su nacimiento, Afrodita fue conocida por su extraordinaria belleza y su irresistible encanto. Se convirtió en la diosa de la atracción y el deseo, ejerciendo una influencia poderosa sobre los dioses y mortales por igual.</p>
+    </div>
+    <div class="image">
+        <img src="fotos/afrodita.jpg" alt="Imagen 1">
+    </div>
+</div>
+    <footer id="pie">
+        <p> Mis redes sociales:D </p>
+    <div>
+        <a href="https://www.facebook.com/nicolle.marquez07" target="_blank">Facebook</a>
+        <a href="https://twitter.com/whosnicolle_vz" target="_blank">Twitter</a>
+        <a href="https://www.instagram.com/whosnicolle_vz/" target="_blank">Instagram</a>
+    </div>
+
+    <!-- Información de contacto o derechos de autor -->
+
+        <p>Derechos de autor © 2023 - La Mitolgia Griega </p>
+     </footer>
+    </body>
+    </html>

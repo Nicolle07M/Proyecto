@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iniciar Sesión</title>
+    <link rel="stylesheet" type="text/css" href="css/estilos.css">
+    <link rel="icon" href="fotos/logo2.ico">
+    <script>
+        function Saludo() {
+            alert('Hola Bienvenid@ '+document.formulario.username.value);
+            return "index.html"
+        }
+    </script>
+</head>
+<body>
+    <center>
+        <form name="Tick" id="Tick" >
+            <input type="text" sixe="11" name="Clock" />
+</form>
+<script>
+    function show() {
+        var Digital = new Date()
+        var hours = Digital.getHours()
+        var minutes = Digital.getMinutes()
+        var seconds = Digital.getSeconds()
+        var dn = "AM"
+        if (hours > 12) {
+            dn = "PM"
+            hours = hours - 12
+        }
+        if (hours == 0)
+            hours = 12
+        if(minutes <= 9)
+           minutes = "0" + minutes
+        if (seconds <= 9)
+            seconds = "0" + seconds
+        document.Tick.Clock.value = hours + ":" + minutes + ":" +
+        seconds + " " + dn
+        setTimeout("show()",1000)
+    }
+    show();   
+</script>
+
+<header id="cabecera0">
+    <h1>Bienvenido!</h1>
+</header>
+    <div class="containerINI">
+        <h1>Iniciar Sesión</h1>
+        <img src="fotos/INICIO.jpeg" width="100" id="logito">
+            <form action="pag1.html" name="formulario" method="post">
+            <label for="username">Nombre de usuario:</label>
+            <input type="text" id="username" name="username" required>
+
+            <label for="password">Contraseña:</label>
+            <input type="password" id="password" name="password" required>
+
+            <input type="submit" value="Iniciar sesión" onclick="Saludo()" >
+        </form>
+    </div>
+    <footer id="pie">
+        <!-- Redes sociales -->
+        <p> Mis redes sociales:D </p>
+        <div>
+            <a href="https://www.facebook.com/nicolle.marquez07" target="_blank">Facebook</a>
+            <a href="https://twitter.com/whosnicolle_vz" target="_blank">Twitter</a>
+            <a href="https://www.instagram.com/whosnicolle_vz/" target="_blank">Instagram</a>
+        </div>
+    
+        <!-- Información de contacto o derechos de autor -->
+        <p>Derechos de autor © 2023 - La Mitolgia Griega </p>
+     </footer>
+</body>
+</html>

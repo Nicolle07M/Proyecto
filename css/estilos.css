@@ -1,0 +1,371 @@
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, hsl(0, 0%, 100%), hsla(189, 83%, 36%, 0.685)), url(https://media.istockphoto.com/id/184103864/es/foto/nubes-en-el-cielo.jpg?s=612x612&w=0&k=20&c=owehXuhW5eJ9TgWcrGkJwCeYWXxfGBItcaaHmtNS4tY=width=1200);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, hsla(182, 100%, 63%, 0.678), hsla(204, 89%, 43%, 0.685)), url(https://media.istockphoto.com/id/184103864/es/foto/nubes-en-el-cielo.jpg?s=612x612&w=0&k=20&c=owehXuhW5eJ9TgWcrGkJwCeYWXxfGBItcaaHmtNS4tY=width=1200);
+   
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+
+body {
+    background-color: rgb(11, 153, 153);
+}
+
+
+#cabecera {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: rgb(255, 255, 255);
+    width: 500px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    box-shadow: inset 0 0 30px rgb(8, 81, 129);
+}
+
+
+#menu {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: black;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    width: 800px;
+}
+
+#menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+}
+
+#menu ul li{
+    display: inline-block;
+}
+
+#menu ul li a{
+    color:antiquewhite;
+    padding: 10px;
+    display: block;
+    text-decoration: none;
+}
+
+#menu ul li a:hover{
+    background-color: rgb(25, 105, 101);
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+#centro {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+    background-color: black;
+    float:left;
+    height: 1155px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    box-shadow: inset 0 0 30px rgb(23, 94, 128);
+}
+
+#main {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: rgb(255, 255, 255);
+    margin-left: 265px;
+    padding-left: 15px;
+    padding-top: 5px;
+    height: 1150px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    box-shadow: inset 0 0 30px rgb(8, 81, 129);
+}
+
+#pie {
+    background-color: #067cb3;
+    clear:both;
+    margin-top: 15px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    bottom: 0;
+    width: 100%; 
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    box-shadow: inset 0 0 30px rgb(0, 0, 0);
+
+}
+
+/* TERMINA primera pagina*/
+
+/* EMPIEZA segunda pagina*/
+#cabecera2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: rgb(255, 255, 255);
+    width: 400px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    box-shadow: inset 0 0 30px rgb(8, 81, 129);
+}
+
+
+.sectionM {
+    display: flex;
+    align-items: center;
+    padding: 50px;
+    background-color: #f2f2f2;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    box-shadow: inset 0 0 30px rgb(8, 81, 129);
+    width: 1200;
+}
+
+.sectionL {
+    display: flex;
+    align-items: center;
+    padding: 50px;
+    background-color: #000000;
+    color: #ffffff;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    box-shadow: inset 0 0 30px rgb(8, 81, 129);
+    width: 1200;
+}
+
+.text {
+    flex: 1;
+    padding: 20px;
+}
+
+.image {
+    flex: 1;
+    text-align: center;
+}
+
+img {
+    max-width: 100%;
+    max-height: 300px;
+    border: 2px solid #008cff;
+    border-radius: 8px;
+    margin: 10px;
+}
+
+/* TERMINA SEGUNDA pagina*/
+
+/* EMPIEZA TERCERA pagina*/
+
+#cabecera3 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: rgb(255, 255, 255);
+    width: 400px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    box-shadow: inset 0 0 30px rgb(8, 81, 129);
+}
+
+#main2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: rgb(255, 255, 255);
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding-left: 15px;
+    padding-top: 5px;
+    height: 1280px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    box-shadow: inset 0 0 30px rgb(8, 81, 129);
+}
+
+
+.container3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    height: 10;
+    width: 1300px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+
+
+.sectionS {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 20px;
+    margin-left: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    box-shadow: inset 0 0 30px rgb(8, 81, 129);
+} 
+ 
+#pie2 {
+    background-color: #067cb3;
+    clear:both;
+    margin-top: 20px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    bottom: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    box-shadow: inset 0 0 30px rgb(0, 0, 0);
+
+}
+
+
+/* INCIO DE SESION pagina*/
+
+#cabecera0 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: rgb(255, 255, 255);
+    width: 500px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    box-shadow: inset 0 0 30px rgb(8, 81, 129);
+}
+.containerINI {
+    max-width: 400px;
+    margin: 100px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    box-shadow: inset 0 0 30px rgb(1, 102, 255);
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+#logito{
+    max-width: 100%;
+    max-height: 300px;
+    border: 2px solid #008cff;
+    border-radius: 8px;
+    margin: 10px;
+}
+
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="password"] {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #000000;
+    border-radius: 3px;
+}
+
+input[type="submit"] {
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+#pie {
+    background-color: #067cb3;
+    clear:both;
+    margin-top: 15px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    bottom: 0;
+    width: 100%; 
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    box-shadow: inset 0 0 30px rgb(0, 0, 0);
+
+}
+
+
+#Tick {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    width: 100px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+} 
+
+
+footer {
+    background-color: #f2f2f2;
+    padding: 20px;
+    text-align: center;
+}
+
+footer div a {
+    display: inline-block;
+    margin: 5px;
+    padding: 10px 20px;
+    background-color: #ffffff;
+    color: #000000;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+footer div a:hover {
+    background-color: #ffffff;
+}
+
+footer p {
+    margin-top: 20px;
+    font-size: 14px;
+}

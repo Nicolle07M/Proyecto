@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>La mitologia griega</title>
+    <link rel="stylesheet" type="text/css" href="css/estilos.css">
+    <link rel="icon" href="fotos/logo2.ico">
+</head>
+<body>
+    <center>
+        <form name="Tick" id="Tick" >
+            <input type="text" sixe="11" name="Clock" />
+</form>
+<script>
+    function show() {
+        var Digital = new Date()
+        var hours = Digital.getHours()
+        var minutes = Digital.getMinutes()
+        var seconds = Digital.getSeconds()
+        var dn = "AM"
+        if (hours > 12) {
+            dn = "PM"
+            hours = hours - 12
+        }
+        if (hours == 0)
+            hours = 12
+        if(minutes <= 9)
+           minutes = "0" + minutes
+        if (seconds <= 9)
+            seconds = "0" + seconds
+        document.Tick.Clock.value = hours + ":" + minutes + ":" +
+        seconds + " " + dn
+        setTimeout("show()",1000)
+    }
+    show();
+</script>
+    <header id="cabecera">
+        <h1>Mitologia Griega</h1>
+    </header>
+</center>
+<center>
+<header>
+    <img src="fotos/INICIO.jpeg" width="100" id="logito">
+<nav id="menu">
+    <ul>
+        <li><a href="pag1.html">Pagina principal </a> </li>
+        <li><a href="pag2.html">Mis dioses favoritos </a> </li>
+        <li><a href="pag3.html">Otras mitologias </a></li>
+        <li><a href="index.html">Cerrar sesion</a></li>
+
+    </ul>
+</nav>
+</header>
+</center>
+<br>
+<aside id="centro">
+<blockquote>Mi nombre es <br>
+   Nicolle Marquez!</blockquote>
+<blockquote><img src="fotos/nicolle.jpeg" width="150"/></blockquote>
+<blockquote>
+Tengo 17 años y <br>
+soy aprendiz del <br>
+Sena, actualmente <br>
+estoy haciendo un <br>
+tecnologo en Analisis <br>
+y desarrollo de <br>
+software (ADSO) <BR>
+</blockquote>
+</aside>
+
+<section id="main">
+ <article>
+    <header>
+            <center>
+        <h1>Hola! te hablare un poco sobre la Mitologia Griega!</h1>
+    </center>
+    </header>
+
+<figure>
+
+<img src="fotos/Dioses.jpg" width="1000"/>
+
+
+</figure>
+<center>
+    <p>Bueno, para empezar la mitologia griega ha sido conocida por todo el mundo, está llena de mitos y leyendas de la Antigua Grecia,<br>
+en estas leyendas hablaban de sus Dioses y heroes, sobre la naturaleza del mundo, su origen y entre otras cosas.
+    </p>
+    <p> La mitología griega cuenta con una amplia variedad de dioses y diosas que gobernaban diferentes aspectos del universo y la naturaleza.<br>
+        Algunos de los más conocidos son Zeus (rey de los dioses), Hera (diosa del matrimonio), Poseidón (dios del mar), Afrodita (diosa del amor),<br>
+        Ares (dios de la guerra), Atenea (diosa de la sabiduría y la guerra estratégica) y Apolo (dios del sol, la música y la profecía).</p>
+    <p>La mitología griega está repleta de relatos míticos que explican el origen del mundo, la creación de los dioses y la relación entre <br>
+        los dioses y los humanos. Algunos de los mitos más famosos incluyen el nacimiento de Zeus y la lucha contra los Titanes, el mito de <br>
+        Prometeo que robó el fuego a los dioses para dárselo a los humanos y el mito de la guerra de Troya, narrado en la epopeya de Homero, la "Ilíada".</p>
+</center>
+
+ </article>
+<article>
+ <header>
+    <center>
+    <h1>Historia de la mitologia griega</h1>
+ </header>
+</center>
+<center>
+    <p>A continuacion te dejo un video para que puedas conocer un poco mas lo que es la mitologia griega:D</p>
+    <video width="640" height="360" controls>
+    <source src="fotos/mitologia_griega.mp4" type="video/mp4">
+</video>
+<figcaption>
+    <a href="https://www.youtube.com/@MiraLaHistoria">Mira la Historia / Mitologia  </a>
+</figcaption>
+</center>
+ </article>
+ </section>
+
+
+ <footer id="pie">
+    <!-- Redes sociales -->
+    <p> Mis redes sociales:D </p>
+    <div>
+        <a href="https://www.facebook.com/nicolle.marquez07" target="_blank">Facebook</a>
+        <a href="https://twitter.com/whosnicolle_vz" target="_blank">Twitter</a>
+        <a href="https://www.instagram.com/whosnicolle_vz/" target="_blank">Instagram</a>
+    </div>
+
+    <!-- Información de contacto o derechos de autor -->
+    <p>Derechos de autor © 2023 - La Mitolgia Griega </p>
+ </footer>
+</body>
+</html>
